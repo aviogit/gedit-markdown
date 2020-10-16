@@ -121,6 +121,16 @@ else
 	cheminConfig=$HOME/.config/gedit
 fi
 
+echo cheminLanguageSpecs=$cheminLanguageSpecs
+echo cheminPlugins=$cheminPlugins
+echo cheminPluginsMarkdownPreview=$cheminPluginsMarkdownPreview
+echo cheminStyles=$cheminStyles
+echo cheminSnippets=$cheminSnippets
+echo cheminTools=$cheminTools
+echo cheminConfig=$cheminConfig
+echo Is that ok? Press ctrl-c to break, continuing in 30 seconds...
+sleep 30
+
 cheminFichierConfig=$cheminConfig/gedit-markdown.ini
 
 ####################################
